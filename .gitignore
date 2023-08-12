@@ -1,0 +1,47 @@
+# Ignorar arquivos e diretórios gerados automaticamente
+node_modules/
+dist/
+.cache/
+
+# Ignorar arquivos de configuração sensíveis
+.env
+.env.local
+.env.*.local
+
+# Ignorar arquivos de log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Ignorar arquivos de dependências
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Ignorar diretório de build no caso de aplicação Angular
+/dist
+
+# Ignorar diretório de build no caso de aplicação React
+/build
+
+# Ignorar diretório de build no caso de aplicação Vue.js
+/dist
+
+# Ignorar diretório .vscode (configurações do Visual Studio Code)
+.vscode/
+
+# Ignorar diretório de configurações IDE (por exemplo, WebStorm)
+.idea/
+
+# Ignorar diretório .nyc_output (relatório de cobertura de código do NYC)
+.nyc_output/
+
+# Ignorar arquivos gerados durante testes
+/coverage
+
+# Ignorar diretório node_modules gerado pelo Yarn PnP
+.pnp/
+
+# Ignorar diretório node_modules gerado pelo Yarn 2
+.yarn/
